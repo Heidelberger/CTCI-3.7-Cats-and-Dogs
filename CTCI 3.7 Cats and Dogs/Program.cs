@@ -19,6 +19,13 @@ namespace CTCI_3._7_Cats_and_Dogs
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// 
+        /// Create a new class descending from Queue<Animal>
+        /// Create methods for DequeueCat, DequeueDog, DequeueAny, etc, which
+        /// hide the default Queue<> methods.
+        /// 
+        /// </summary>
         private static void OneQueue()
         {
             Console.WriteLine();
@@ -61,6 +68,11 @@ namespace CTCI_3._7_Cats_and_Dogs
             AnimalQueue.Dequeue();            
         }
 
+        /// <summary>
+        /// 
+        /// Create a class containing 2 queues, 1 for cats and 1 for dogs
+        /// 
+        /// </summary>
         private static void TwoQueues()
         {
             Console.WriteLine();
