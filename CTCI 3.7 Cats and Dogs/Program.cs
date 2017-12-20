@@ -23,7 +23,7 @@ namespace CTCI_3._7_Cats_and_Dogs
         /// 
         /// Create a new class descending from Queue<Animal>
         /// Create methods for DequeueCat, DequeueDog, DequeueAny, etc, which
-        /// hide the default Queue<> methods.
+        /// hide the default Queue<> methods
         /// 
         /// </summary>
         private static void OneQueue()
